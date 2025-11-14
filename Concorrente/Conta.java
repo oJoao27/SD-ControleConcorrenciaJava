@@ -8,6 +8,11 @@ public class Conta {
         this.saldo = saldo;
         System.out.println("Conta criada. Saldo inicial: R$" + saldo);
     }
+
+    public Conta() {
+        this.saldo = 0;
+        System.out.println("Conta criada. Saldo inicial: R$0");
+    }
     
     public double getSaldo() {
         return saldo;
